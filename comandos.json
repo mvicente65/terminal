@@ -1,0 +1,54 @@
+[
+    {
+        "comando": "run.bat compara_full_v2.php webconfig_prod.php estrutura_pcsm_141.sql",
+        "descricao": "Compara um banco conectado com um esquema - conexão INI (arquivo php), esquema sql"
+    },
+    {
+        "comando": "run.bat",
+        "descricao": "Script batch executor"
+    },
+    {
+        "comando": "compara_full_v2.php",
+        "descricao": "compara um banco conectado a um esquema"
+    },
+    {
+        "comando": "webconfig_prod.php",
+        "descricao": "arquivo de configuração de produção"
+    },
+    {
+        "comando": "estrutura_pcsm_141.sql",
+        "descricao": "script sql de estrutura"
+    },
+    {
+        "comando": "estrutura_pcsm_local.sql",
+        "descricao": "Estrutura PCSM local"
+    },
+    {
+        "comando": "git pull \"https:\/\/git.apps.rio.gov.br\/php\/pcsm.git\" dev",
+        "descricao": "Atualiza local a partir de DEV"
+    },
+    {
+        "comando": "https:\/\/git.apps.rio.gov.br\/php\/pcsm.git",
+        "descricao": "GIT PCSM"
+    },
+    {
+        "comando": "git branch -a",
+        "descricao": "Lista todas as branchs do projeto"
+    },
+    {
+        "comando": "acolhe_hom_dump_232.sql",
+        "descricao": "Dump SMAS homologação 232"
+    },
+    {
+        "comando": "webconfig_pcsm3307.php",
+        "descricao": "Conexão PCSM local porta 3307"
+    },
+    {
+        "comando": "py extrai_git.py local=dev-mtv-5 data=01\/10\/2026-31\/10\/2026 layout=3 autor=\"Leonardo\" ext=php folder=_view",
+        "descricao": "Aplicativo python para Listar commits"
+    },
+    {
+        "comando": "estrutura_acolhehom_232.sql",
+        "descricao": "DUMP AcolheRio host 232"
+    }
+]

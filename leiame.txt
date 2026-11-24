@@ -1,0 +1,16 @@
+1-Copia o script terminal.bat ou terminal.sh para a pasta a ser executado
+2-O script extrai_git.py lista os commits de um projeto. Este script deverá ser copiado para a pasta do repostitório (projeto).
+
+EXEMPLO DE USO:
+
+Execute o script a partir do navegador de arquivos (ex: executado a partir de Y:\pcsm)
+O navegador web será carregado (http://localhost/terminal/index.php?dir=Y:\pcsm)
+
+Exemplo da execução do script python:
+py extrai_git.py local=<branch> data=<data_inicial>-<data_final> layout=3 autor="<quem_commitou>" ext=php folder=_view
+Layout_1:
+pasta - "autor commit 1", "autor commit 2", ...
+Layout_2:
+pasta - "titulo commit"
+Layout_3:
+pasta - arquivo - "titulo commit"
